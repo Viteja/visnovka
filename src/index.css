@@ -1,0 +1,35 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(/font/OpenSans-Regular.ttf);
+}
+
+:root {
+  font-family: myFirstFont;
+  --font_9: normal normal normal 14px / 1.4em "open sans", sans-serif;
+  --red: #b02527;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(46, 46, 50);
+  /* background: white;*/
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: var(--red);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e20b0f;
+}

@@ -1,0 +1,553 @@
+/* Nastavení */
+.button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+.line {
+  border-bottom: 2px var(--red) solid;
+  margin: 2rem 0;
+}
+
+/* Hlavní menu */
+
+.mainSection {
+  background-image: url(/img/bg_visnovka.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Telefon */
+
+.phone {
+  background-color: var(--red);
+  opacity: 0.8;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding: 0 1.5rem;
+  top: 89.5px;
+  right: 20%;
+}
+
+.phone h5 {
+  color: white;
+  padding-left: 1rem;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 5em;
+  letter-spacing: 0.8px;
+  margin: 20px 0px 21px 0;
+}
+
+.phone i {
+  color: white;
+  font-size: 16px;
+}
+
+/* Šedý blog na hlavní obrazovce */
+
+.mainBlog {
+  background-color: rgba(46 46 50 / 90%);
+  color: white;
+  padding: 2.5rem 2rem;
+  width: 40%;
+  margin-bottom: -7rem;
+}
+
+.mainBlog h1 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+.mainBlog h5 {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 500;
+  letter-spacing: 0.8;
+}
+
+.mainBlog button {
+  background-color: rgba(46 46 50 / 0%);
+  border-color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.mainBlog button a {
+  text-decoration: none;
+  color: white;
+  padding: 2rem;
+}
+
+.mainBlog button:hover {
+  border: 2px solid red;
+  filter: brightness(0.5);
+  transition: all 0.5s;
+}
+
+/* Záložka projekt */
+
+.aboutProject {
+  justify-content: center;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.aboutProject h1 {
+  padding: 2rem 1rem 1rem 1rem;
+  color: #283b62;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.aboutProject h2 {
+  color: #2e2e32;
+  font-weight: 100;
+  font-size: 17px;
+  padding: 0 0 2rem;
+}
+
+.freeSpaces .logo {
+  width: 35%;
+  height: auto;
+}
+
+.threeBlocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardContent h3 {
+  color: #2e2e32;
+}
+
+.cardContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.cardContent h4 {
+  color: #b02527;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+  padding: 1rem 0 1rem 0;
+}
+.cardContent p {
+  line-height: 28px;
+  color: #283b62;
+}
+
+.cardContent h1 {
+  justify-content: left;
+  font-size: 22px;
+}
+
+.card {
+  width: 31%;
+  overflow: hidden;
+  margin: 1rem 0.5rem 8rem 0.5rem;
+  text-align: left;
+}
+
+.cardImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.freeSpaces {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.mapContent img {
+  width: 35%;
+}
+
+.mapContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mapContent button {
+  border: 2px solid var(--red);
+  width: 50%;
+  background-color: transparent;
+  padding: 1rem 4rem;
+  margin: 4rem 0 9rem 0;
+}
+
+.mapContent button a {
+  text-decoration: none;
+  color: #b02527;
+  padding: 80px;
+}
+
+.mapContent button:hover {
+  border: 2px solid grey;
+  background-color: white;
+  transition: all 0.5s;
+}
+.mapContent h5 {
+  font-size: 16px;
+  font-weight: 100;
+  width: 70%;
+  padding: 3.5rem 0 4rem 0;
+}
+
+.window {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.774)), url(/img/bg_visnovka.webp);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 2rem 0;
+}
+
+.textWindow {
+  padding: 2rem 0;
+  width: 40%;
+}
+
+.textWindow h2 {
+  color: white;
+}
+
+.textWindow p {
+  color: white;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 7rem 0rem;
+  padding: 0 3rem 0 3rem;
+  width: 100%;
+}
+.icon img {
+  width: 100px;
+  padding: 0 1rem;
+}
+
+.threeIcons {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.icon h3 {
+  font-size: 15px;
+  padding: 0 2rem;
+}
+
+.iconContent {
+  justify-content: center;
+  display: flex;
+}
+
+.gallery {
+  padding: 2rem 0;
+  background-color: #242323;
+}
+.photo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-gap: 15px;
+  padding: 4rem 0 4rem 0;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.photo img:hover {
+  filter: brightness(0.5);
+  transition: all 0.3s;
+}
+.formCards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.form {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.form h1 {
+  padding: 6rem 0 2rem;
+}
+
+.fCard1 {
+  width: 40%;
+}
+.fCard2 {
+  width: 40%;
+}
+.fText1 {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.fText1 h2 {
+  color: var(--red);
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+.fText1 h3 {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.fText1 h4 {
+  font-size: 14px;
+  font-weight: 200;
+  padding: 1.3rem 0;
+  margin: 0;
+}
+
+.fText1 iframe {
+  margin: 1rem 0;
+  height: 250px;
+}
+
+.fCard1 img {
+  width: 80%;
+}
+.fCard2 form {
+  flex-direction: column;
+  width: 100%;
+}
+
+.fCard2 form input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px var(--red) solid;
+  padding: 0.5rem;
+}
+
+.fCard2 form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 2px var(--red) solid;
+  width: 100% !important;
+  height: 250px !important;
+  resize: none;
+  padding: 0.5rem;
+  font-family: myFirstFont;
+}
+
+.fCard2 form input:hover {
+  background-color: #ffebde;
+}
+.fCard2 form textarea:hover {
+  background-color: #ffebde;
+}
+
+footer {
+  background-color: rgb(46, 46, 50);
+  padding: 0;
+  margin: 0;
+}
+
+footer p {
+  color: white;
+  padding: 1.5rem 0;
+  font-weight: 100;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.autor {
+  display: flex;
+  align-items: center;
+}
+
+.autor img {
+  width: 100px;
+  padding: 5px;
+}
+
+.formCards form button {
+  border: 2px solid var(--red);
+  padding: 0.5rem 1rem;
+  width: 25%;
+  background-color: transparent;
+  color: var(--red);
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.formCards form button:hover {
+  background-color: #ffebde;
+}
+/*******************************************************************************************************************************************************************/
+
+@media (max-width: 1024px) {
+  .mainSection {
+    min-height: 10vh;
+  }
+  .phone {
+    opacity: 0;
+  }
+
+  .mainBlog {
+    background-color: rgba(46 46 50 / 90%);
+    color: white;
+    padding: 1rem 2rem;
+    margin-top: 12rem;
+    width: 80%;
+    margin-bottom: -7rem;
+  }
+
+  .mainBlog h1 {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding-right: 10%;
+  }
+
+  .mainBlog h5 {
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+  .mainBlog button {
+    padding: 0rem;
+    width: 70%;
+    height: 2rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mainBlog button a {
+    font-size: 10px;
+
+    padding: 0;
+  }
+
+  .aboutProject h1 {
+    padding: 2rem 1rem 1rem 1rem;
+    color: #283b62;
+    font-size: 28px;
+    font-weight: 900;
+  }
+
+  .threeBlocks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+
+    text-align: left;
+  }
+
+  .mapContent img {
+    width: 100%;
+  }
+
+  .mapContent button {
+    width: 100%;
+    background-color: transparent;
+  }
+
+  .mapContent button a {
+    padding: 1rem 0.5rem;
+  }
+
+  .mapContent button:hover {
+    border: 2px solid grey;
+    background-color: white;
+    transition: all 0.5s;
+  }
+  .mapContent h5 {
+    font-size: 16px;
+    font-weight: 100;
+    width: 70%;
+    padding: 3.5rem 0 4rem 0;
+  }
+  .freeSpaces .logo {
+    width: 75%;
+    height: auto;
+  }
+
+  .window {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .textWindow {
+    width: 100%;
+  }
+
+  .icon {
+    margin: 3rem 0rem;
+  }
+  .icon img {
+    width: 100px;
+    padding: 0 1rem;
+  }
+  .icon h3 {
+    font-size: 15px;
+    padding: 0 2rem;
+  }
+
+  .iconContent {
+    flex-direction: column;
+  }
+
+  .gallery {
+    background-color: #242323;
+  }
+  .photo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .formCards {
+    flex-direction: column;
+  }
+
+  .fCard1 {
+    width: 100%;
+    margin: 2rem 0;
+  }
+  .fCard2 {
+    margin: 2rem 0;
+    width: 100%;
+  }
+
+  .fCard1 img {
+    width: 100%;
+  }
+  .fCard2 form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+
+    align-items: center;
+  }
+}

@@ -127,6 +127,7 @@
 
 .cardContent h3 {
   color: #2e2e32;
+  text-transform: uppercase;
 }
 
 .cardContent {
@@ -140,6 +141,7 @@
   font-weight: 300;
   margin: 0;
   padding: 1rem 0 1rem 0;
+  text-transform: uppercase;
 }
 .cardContent p {
   line-height: 28px;

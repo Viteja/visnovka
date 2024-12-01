@@ -155,7 +155,8 @@ function App() {
             <h2>DOSTUPNÁ LOKALITA</h2>
             <p>
               Administrativní centrum VIŠŇOVKA profituje ze skvělé polohy v docházkové vzdáleností do centra Pardubic. <br />
-              <br /> ​ Maximálně 10 minut autem trvá cesta na vlakové nádraží i na mezinárodní letiště. Zastávka městské hromadné dopravy je v blízkosti budovy.
+              <br />
+              Maximálně 10 minut autem trvá cesta na vlakové nádraží i na mezinárodní letiště. Zastávka městské hromadné dopravy je v blízkosti budovy.
             </p>
           </div>
         </div>
@@ -196,7 +197,7 @@ function App() {
                 <img className="logo" src="/img/logo.webp" alt="" />
                 <div className="fText1">
                   <h2>Bohumil Černý</h2>
-                  <h3>Obchodní manažer AC VÍŠŇOVKA</h3>
+                  <h3>Obchodní manažer AC VIŠŇOVKA</h3>
                   <h4>
                     Email: bohumil.cerny@brp-service.com <br />
                     Tel: +420 778 748 331

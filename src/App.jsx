@@ -17,7 +17,7 @@ function App() {
   const [list2, setList2] = useState([]);
 
   const loadData = () => {
-    fetch("https://designjj-test.eu/admin/php/getprojekt.php", {
+    fetch("https://acvisnovka.cz/admin/php/getprojekt.php", {
       method: "POST",
     })
       .then((res) => res.json())
@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   const loadIcons = () => {
-    fetch("https://designjj-test.eu/admin/php/geticons.php", {
+    fetch("https://acvisnovka.cz/admin/php/geticons.php", {
       method: "POST",
     })
       .then((res) => res.json())
@@ -62,7 +62,7 @@ function App() {
       console.log(formData);
       return toast.error("Vyplňte všechny údaje");
     } else {
-      axios.post("https://designjj-test.eu/php/mail.php", formData).then((res) => {
+      axios.post("https://acvisnovka.cz/php/mail.php", formData).then((res) => {
         console.log(res);
         scrollToId("contact");
         toast.success("Formulář byl odeslán");

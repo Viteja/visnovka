@@ -17,7 +17,7 @@ function App() {
   const [list2, setList2] = useState([]);
 
   const loadData = () => {
-    fetch("https://acvisnovka.cz/admin/php/getprojekt.php", {
+    fetch("https://acvisnovka.cz/php/getprojekt.php", {
       method: "POST",
     })
       .then((res) => res.json())
@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   const loadIcons = () => {
-    fetch("https://acvisnovka.cz/admin/php/geticons.php", {
+    fetch("https://acvisnovka.cz/php/geticons.php", {
       method: "POST",
     })
       .then((res) => res.json())

@@ -17,7 +17,7 @@ function App() {
   const [list2, setList2] = useState([]);
 
   const loadData = () => {
-    fetch("https://acvisnovka.cz/php/getprojekt.php", {
+    fetch("https://designjj-test.eu/php/getprojekt.php", {
       method: "POST",
     })
       .then((res) => res.json())
@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   const loadIcons = () => {
-    fetch("https://acvisnovka.cz/php/geticons.php", {
+    fetch("https://designjj-test.eu/php/geticons.php", {
       method: "POST",
     })
       .then((res) => res.json())
@@ -62,7 +62,7 @@ function App() {
       console.log(formData);
       return toast.error("Vyplňte všechny údaje");
     } else {
-      axios.post("https://acvisnovka.cz/php/mail.php", formData).then((res) => {
+      axios.post("https://designjj-test.eu/php/mail.php", formData).then((res) => {
         console.log(res);
         scrollToId("contact");
         toast.success("Formulář byl odeslán");
@@ -199,8 +199,8 @@ function App() {
                   <h2>Bohumil Černý</h2>
                   <h3>Obchodní manažer AC VIŠŇOVKA</h3>
                   <h4>
-                    Email: bohumil.cerny@brp-service.com <br />
-                    Tel: +420 778 748 331
+                    E-mail: bohumil.cerny@brp-service.com <br />
+                    <a href="tel: 778748331">Tel: +420 778 748 331</a>
                   </h4>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.058175652144!2d15.775727676071792!3d50.029005717619775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470dcd3a04406375%3A0xcb72162255f15406!2zQUMgVmnFocWIb3ZrYQ!5e0!3m2!1sen!2sus!4v1731436142721!5m2!1sen!2sus"></iframe>
                 </div>
@@ -208,7 +208,7 @@ function App() {
               <div className="fCard2">
                 <form>
                   <input type="name" id="name" name="name" placeholder="Jméno" required value={formData.name} onChange={handleChange} />
-                  <input type="email" id="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} />
+                  <input type="email" id="email" name="email" placeholder="E-mail" value={formData.email} onChange={handleChange} />
                   <input type="subject" id="subject" name="subject" placeholder="Předmět zprávy" value={formData.subject} onChange={handleChange} />
                   <textarea id="message" name="message" placeholder="Zpráva" required value={formData.message} onChange={handleChange}></textarea>
                   <button onClick={handleSend}>Odeslat</button>

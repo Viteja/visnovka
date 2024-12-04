@@ -25,7 +25,7 @@ try{
   $mail->SMTPDebug = SMTP::DEBUG_SERVER;   
     $mail->CharSet = "UTF-8";                   //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'mail.webglobe.cz';                     //Set the SMTP server to send through
+    $mail->Host       = 'webmail.wedos.net';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'info@designjj-test.eu';                     //SMTP username
     $mail->Password   = 'Radegast12*';                               //SMTP password

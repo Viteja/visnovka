@@ -36,7 +36,7 @@
   right: 20%;
 }
 
-.phone h5 {
+.phone h5 a {
   color: white;
   padding-left: 1rem;
   font-weight: 400;
@@ -44,6 +44,7 @@
   line-height: 1, 5em;
   letter-spacing: 0.8px;
   margin: 20px 0px 21px 0;
+  text-decoration: none;
 }
 
 .phone i {

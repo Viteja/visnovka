@@ -94,7 +94,9 @@ function App() {
         <div className="mainSection">
           <div className="phone font_9" data-aos="fade-left" data-aos-duration="600">
             <i className="fa-solid fa-phone"></i>
-            <h5>Volejte 778 748 331</h5>
+            <h5>
+              <a href="tel: 778748331">Volejte 778 748 331</a>
+            </h5>
           </div>
           <div className="container">
             <div className="mainBlog" data-aos="fade-up" data-aos-duration="600">
@@ -199,7 +201,7 @@ function App() {
                   <h2>Bohumil Černý</h2>
                   <h3>Obchodní manažer AC VIŠŇOVKA</h3>
                   <h4>
-                    E-mail: bohumil.cerny@brp-service.com <br />
+                    <a href="mailto: bohumil.cerny@brp-service.com">E-mail: bohumil.cerny@brp-service.com</a> <br />
                     <a href="tel: 778748331">Tel: +420 778 748 331</a>
                   </h4>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.058175652144!2d15.775727676071792!3d50.029005717619775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470dcd3a04406375%3A0xcb72162255f15406!2zQUMgVmnFocWIb3ZrYQ!5e0!3m2!1sen!2sus!4v1731436142721!5m2!1sen!2sus"></iframe>

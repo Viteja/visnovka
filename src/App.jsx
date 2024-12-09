@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import ImageComponent from "./components/imgPath/imgPath";
 import ImageIcons from "./components/imgPath/imgIcons";
+import Cookies from "./components/cookies/cookies";
 
 import "./App.css";
 
@@ -88,6 +89,7 @@ function App() {
 
   return (
     <>
+      <Cookies />
       <ToastContainer position="bottom-right" autoClose={5000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="light" transition:Bounce />
       <Navbar />
       <section id="home">
